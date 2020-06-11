@@ -23,7 +23,7 @@ public class TestDownController {
         // 取得文件名。
         String filename = file.getName();
         try {
-            // 以流的形式下载文件。
+            // 以流的形式下载文件ss。
             InputStream inputStream = new BufferedInputStream(new FileInputStream(path));
             response.setHeader("content-type", "application/octet-stream");
             response.setContentType("application/force-download");
